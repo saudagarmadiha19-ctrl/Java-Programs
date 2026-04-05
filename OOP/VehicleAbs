@@ -1,0 +1,16 @@
+/*
+Concept: Abstraction
+*/
+
+abstract class VehicleAbs {
+    abstract void start();
+}
+class Car extends VehicleAbs {
+    void start() {
+        System.out.println("Car starts with key");
+    }
+    public static void main(String[] args) {
+        Car c = new Car();
+        c.start();
+    }
+}
