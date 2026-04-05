@@ -1,0 +1,14 @@
+/*
+Concept: Set using HashSet (no duplicates)
+*/
+
+import java.util.HashSet;
+class SetExample {
+    public static void main(String[] args) {
+        HashSet<Integer> set = new HashSet<>();
+        set.add(10);
+        set.add(20);
+        set.add(10); // duplicate
+        System.out.println("Set: " + set);
+    }
+}
