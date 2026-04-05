@@ -1,4 +1,9 @@
-class Student 
+/*
+Class And Object
+Class -> data sturcure having structure and behaviour(blueprint of object).
+Object -> real world entity that possess the characteristics.
+*/
+class ClassObject 
 {
   String name;
   int age;
@@ -9,9 +14,9 @@ class Student
   }
   public static void main(String[] args) 
   {
-    Student s1 = new Student();
-    s1.name = "Priya";
-    s1.age = 20;
-    s1.display();
+    ClassObject C1 = new ClassObject();
+    C1.name = "Priya";
+    C1.age = 20;
+    C1.display();
   }
 }
