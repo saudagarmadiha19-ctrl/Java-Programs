@@ -2,12 +2,12 @@
 Concept: Single Inheritance
 Dog class inherits properties from Animal class.
 */
-class Animal {
+class AnimalSimple {
     void eat() {
         System.out.println("Animal eats");
     }
 }
-class Dog extends Animal {
+class Dog extends AnimalSimple {
     void bark() {
         System.out.println("Dog barks");
     }
