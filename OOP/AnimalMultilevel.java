@@ -7,7 +7,7 @@ class AnimalMultilevel {
         System.out.println("Animal eats");
     }
 }
-class Dog extends Animal {
+class Dog extends AnimalMultilevel {
     void bark() {
         System.out.println("Dog barks");
     }
